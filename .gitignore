@@ -1,0 +1,12 @@
+# Environment and secrets
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Corpus files (can be large — regenerate index from your local data/raw/)
+data/raw/
+data/chunks/
+
+# Logs
+logs/

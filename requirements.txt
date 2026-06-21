@@ -1,0 +1,20 @@
+# Vector search
+faiss-cpu
+
+# Local embeddings (Option A — free, no API key)
+sentence-transformers
+
+# Local LLM via Ollama (Option A — install Ollama app separately from ollama.com)
+ollama
+
+# Hosted LLM + embeddings (Option B — uncomment if using OpenAI)
+# openai
+
+# App
+streamlit
+
+# PDF loading (uncomment when ready in Week 1)
+# pymupdf
+
+# Env vars
+python-dotenv

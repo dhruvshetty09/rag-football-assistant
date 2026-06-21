@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Replace this with a real question from your corpus",
+    "expected_answer": "The correct answer as it appears in the document",
+    "expected_source": "exact_filename.pdf"
+  },
+  {
+    "question": "Add 20-40 of these by hand during Week 2, Session 1",
+    "expected_answer": "Each answer should trace back to a specific passage",
+    "expected_source": "another_document.txt"
+  }
+]
