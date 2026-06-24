@@ -32,7 +32,7 @@ def _load():
 
 def _embed_local(query: str) -> np.ndarray:
     from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("all-MiniLM-L6-v1")
     return model.encode([query]).astype("float32")
 
 

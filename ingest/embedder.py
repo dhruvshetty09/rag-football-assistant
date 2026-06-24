@@ -27,7 +27,7 @@ CHUNKS_PATH = "data/chunks/chunks.json"
 # --- OPTION A: local embeddings (sentence-transformers) ---
 def embed_local(texts: list[str]) -> np.ndarray:
     from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("all-MiniLM-L6-v1")
     return model.encode(texts, show_progress_bar=True).astype("float32")
 
 

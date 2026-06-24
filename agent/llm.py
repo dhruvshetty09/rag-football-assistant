@@ -28,7 +28,7 @@ def _call_ollama(prompt: str, system: str) -> str:
     if system:
         messages.append({"role": "system", "content": system})
     messages.append({"role": "user", "content": prompt})
-    response = ollama.chat(model="llama3", messages=messages)
+    response = ollama.chat(model="phi3", messages=messages)
     return response["message"]["content"]
 
 

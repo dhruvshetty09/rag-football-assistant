@@ -47,7 +47,8 @@ def run(question: str) -> dict:
 
     # Step 1 — first retrieval attempt
     chunks = search(question, use_local=USE_LOCAL)
-    print(f"[agent] Retrieved {len(chunks)} chunks (best score: {chunks[0]['score']:.3f if chunks else 'n/a'})")
+    best_score=f"{chunks[0]['score']:.3f}" if chunks else "n/a"
+    print(f"[agent] Retrieved {len(chunks)} chunks (best score: {best_score})")
 
     # Step 2 — check context quality; retry with a rewritten query if weak
     if _context_too_weak(chunks):
