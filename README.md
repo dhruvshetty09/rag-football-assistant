@@ -57,8 +57,10 @@ python run_eval.py
 
 ## Eval results
 
-| Version | Chunk size | Top-k | Hit rate | MRR | Faithfulness |
-|---------|-----------|-------|----------|-----|--------------|
-| Baseline | 500 | 5 | — | — | — |
+| Version | Chunk size | Top-k | Hit rate | MRR | Notes |
+|---------|-----------|-------|----------|-----|-------|
+| Baseline | 500 | 5 | 1.0 | 0.923 | 
+
+Strong on direct questions; comparative questions (e.g. "difference between X and Y") show higher distance scores (~1.0-1.2), indicating split-chunk weakness |
 
 *(Run `python run_eval.py` after each change and update this table)*
