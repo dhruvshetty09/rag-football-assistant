@@ -1,12 +1,132 @@
 [
   {
-    "question": "Replace this with a real question from your corpus",
-    "expected_answer": "The correct answer as it appears in the document",
-    "expected_source": "exact_filename.pdf"
+    "question": "Is a player offside when he's level with the second-last player of his opponent team?",
+    "expected_answer": "No, he is not offside when he's level with the second last opponent.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
   },
   {
-    "question": "Add 20-40 of these by hand during Week 2, Session 1",
-    "expected_answer": "Each answer should trace back to a specific passage",
-    "expected_source": "another_document.txt"
+    "question": "Can a player be offside in his own half?",
+    "expected_answer": "No, a player can not be offside in his own half.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "What is awarded to the opposing team for an offside?",
+    "expected_answer": "The opposing team receives a free-kick from their own half.",
+    "expected_source":"laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question":"Can the goalkeeper handle the ball with his hands if his/her deliberately passes the ball to them?",
+    "expected_answer":"No, the goalkeeper can not touch the ball with their hands if they received it from a deliberate pass.",
+    "expected_source":"laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "What is awarded to the opposing team when the goalkeeper/keeper handles the ball off of a deliberate pass?",
+    "expected_answer": "The opposing team is an indirect free-kick.", 
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "Can a player be offside if they receive the ball directly from a throw-in?",
+    "expected_answer": "No, the player is not offside when they receive the ball directly from a throw-in.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "Can a player be offside if they receive the ball directly from a corner kick?",
+    "expected_answer": "No, the player is not offside when they receive the ball directly from a corner kick.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "Is a handball always a foul, even if a player's hand accidentally touches the ball?",
+    "expected_answer": "No, accidental handball is not automatically a foul; it depends on factors like deliberate movement of the hand toward the ball.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "What is the punishment for a serious foul challenge?",
+    "expected_answer":"The player is given a red card and he is sent off.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "What happens if a player receives a second yellow card?",
+    "expected_answer": "After the player is shown a second yellow card, he is given a red card and he is sent off.",
+    "expected_source":"laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "How far must opponents stand from the ball at a free kick?",
+    "expected_answer": "At least 9.15 metres (10 yards) away.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "Can a goal be scored directly from a kick-off?",
+    "expected_answer": "Yes, a goal can be scored directly from kick-off.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "What happens if the ball goes out of play off an attacking player near the goal line?",
+    "expected_answer": "A goal kick is awarded to the defending team.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "What decisions can VAR review?",
+    "expected_answer": "Goal/no goal, penalty/no penalty, direct red card decisions, and mistaken identity.",
+    "expected_source": "IFAB-VAR-Protocol.pdf"
+  },
+  {
+    "question": "Can VAR overturn a second yellow card (caution) decision?",
+    "expected_answer": "No, VAR cannot review a second caution/yellow card, only direct red cards.",
+    "expected_source": "IFAB-VAR-Protocol.pdf"
+  },
+  {
+    "question": "Who makes the final decision after a VAR review?",
+    "expected_answer": "The referee always makes the final decision, even after a VAR review or recommendation.",
+    "expected_source": "IFAB-VAR-Protocol.pdf"
+  },
+  {
+    "question": "Is the referee required to use the pitch-side monitor for every VAR check?",
+    "expected_answer": "No, only for certain reviews requiring subjective judgment; factual decisions can be relayed directly.",
+    "expected_source": "IFAB-VAR-Protocol.pdf"
+  },
+  {
+    "question": "What happens if the VAR system fails during a match?",
+    "expected_answer": "The match continues without VAR if no qualified replacement is available.",
+    "expected_source": "IFAB-VAR-Protocol.pdf"
+  },
+  {
+    "question": "Can a competition use VAR without IFAB and FIFA permission?",
+    "expected_answer": "No, written permission from IFAB and FIFA is required to use VAR.",
+    "expected_source": "IFAB-VAR-Protocol.pdf"
+  },
+  {
+    "question": "What does the Premier League Handbook cover regarding club governance?",
+    "expected_answer": "It covers areas like finance, directors' reports, fixtures, player registrations, transfers, and disciplinary procedures.",
+    "expected_source": "PL_Handbook_25-26_Digital_24.07.pdf"
+  },
+  {
+    "question": "Does the Premier League Handbook contain on-pitch playing rules like offside?",
+    "expected_answer": "No, on-pitch rules are covered by the Laws of the Game; the PL Handbook covers competition administration and club governance.",
+    "expected_source": "PL_Handbook_25-26_Digital_24.07.pdf"
+  },
+  {
+    "question": "What does the Premier League Handbook say about youth development?",
+    "expected_answer": "It includes rules and standards for academy and youth development programs run by clubs.",
+    "expected_source": "PL_Handbook_25-26_Digital_24.07.pdf"
+  },
+  {
+    "question": "Who has authority over disciplinary procedures in the Premier League?",
+    "expected_answer": "The Premier League's disciplinary procedures, as outlined in the Handbook, govern conduct and penalties for clubs and individuals.",
+    "expected_source": "PL_Handbook_25-26_Digital_24.07.pdf"
+  },
+  {
+    "question": "What happens if a defending player deliberately handles the ball to prevent a goal?",
+    "expected_answer": "A penalty kick is awarded and the player is sent off for denying an obvious goal-scoring opportunity.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "Can a player be shown a yellow card for excessive celebration after scoring?",
+    "expected_answer": "Yes, excessive celebration (e.g. climbing fences, provocative gestures) can result in a caution.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
+  },
+  {
+    "question": "How long is a standard football match?",
+    "expected_answer": "90 minutes, split into two 45-minute halves, plus any added time.",
+    "expected_source": "laws-of-the-game-2024-2025.pdf"
   }
 ]
